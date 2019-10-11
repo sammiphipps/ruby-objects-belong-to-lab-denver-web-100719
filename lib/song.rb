@@ -1,9 +1,9 @@
 class Song
-  attr_reader :title, :author
+  attr_accessor :title, :artist
   @@all = []
-  def initalize(title, author)
+  def initalize(title, artist)
     @title = title 
-    @author = author
+    @artist = artist
   end 
   def self.all
     @@all
