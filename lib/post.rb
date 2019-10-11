@@ -4,7 +4,7 @@ class Post
   def initalize(title = "", author = "")
     @title = title
     @author = author
-    @@all = self 
+    @@all << self 
   end 
   def self.all
     @@all
