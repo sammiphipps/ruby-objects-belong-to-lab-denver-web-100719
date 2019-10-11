@@ -9,5 +9,7 @@ class Post
   def self.all
     @@all
   end 
-  def 
+  def author
+    @author
+  end 
 end 
